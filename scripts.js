@@ -10,8 +10,7 @@ function init() {
         const flightStatus = document.getElementById("flightStatus");
         const reply = window.confirm("Confirm that the shuttle is ready for takeoff.")
             if (answer === true) {
-             flightStatus.innerText = "Shuttle in flight.";
-             this.style."shuttleBackground" = "blue";
+                flightStatus.innerText = "Shuttle in flight."
             }
     });
 }
