@@ -7,10 +7,10 @@ window.addEventListener("load", init);
 function init() {
     const takeOff = document.getElementById("takeoff");
     takeOff.addEventListener("click", function() {
-        const flightStatus = this.getElementsById("Flight status");
+        const flightStatus = document.getElementById("flightStatus");
         const reply = window.confirm("Confirm that the shuttle is ready for takeoff.")
             if (answer === true) {
-                flightStatus = "Shuttle in flight."
+             flightStatus.innerText = "Shuttle in flight.";
             }
     });
 }
