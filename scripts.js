@@ -8,11 +8,13 @@ function init() {
     const takeOff = document.getElementById("takeoff");
     const status = document.getElementById("flightStatus");
     const shuttleColor = document.getElementById("shuttleBackground");
+    const shuttleHeight = document.getElementById("spaceShuttleHeight");
     takeOff.addEventListener("click", function() {
         const reply = window.confirm("Confirm that the shuttle is ready for takeoff.")
             if (reply === true) {
-                status = "Shuttle in flight."
+                status.innerText = "Shuttle in flight."
                 shuttleColor.style.background = "blue"
+                shuttleHeight = "10,000 miles"
                 }
     // const landing = document.getElementById("landing");
     // landing.addEventListener("click", function() {
