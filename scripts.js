@@ -37,6 +37,10 @@ function init() {
                  shuttleHeight.innerText = "0"
              }
         });
-
+    
+    const up = document.getElementById(Up);
+        up.addEventListener("click", function() {
+            <img src = "LaunchCode_rocketline_white.png" height="85" width="75" id="rocket"/>
+        });
     
 }
