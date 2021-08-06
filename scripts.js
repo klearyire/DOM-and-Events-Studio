@@ -14,7 +14,7 @@ function init() {
             if (reply === true) {
                 status.innerText = "Shuttle in flight."
                 shuttleColor.style.background = "blue"
-                shuttleHeight = "10,000 miles"
+                shuttleHeight = "10000"
                 }
     // const landing = document.getElementById("landing");
     // landing.addEventListener("click", function() {
