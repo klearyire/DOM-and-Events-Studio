@@ -17,6 +17,6 @@ function init() {
     // const landing = document.getElementById("landing");
     // landing.addEventListener("click", function() {
 
-    })
+    // })
     });
 }
